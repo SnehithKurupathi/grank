@@ -1,0 +1,644 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.dropdown-item:hover {
+    background-color: #ffffff;
+    color: blue;
+}
+
+.dropdown-item: {
+    background-color: #ffffff;
+    color: silver;
+}
+
+.body-container {
+    text-align: center;
+}
+
+.nav-bar-button:hover {
+    border-bottom: blue;
+}
+
+.button-line:hover {
+    color: blue;
+}
+
+.nav-bar-button {
+    border-color: blue;
+    width: 120px;
+
+    background-color: #ffffff;
+    border-width: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Roboto";
+    border-radius: 15px;
+
+    padding: 5px;
+    margin: 2px;
+
+}
+
+
+.surya-fertility-center-header {
+    display: flex;
+
+}
+
+.navbar-nav {
+
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.surya-fertility-center-details {
+    width: 100vw;
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .surya-fertility-center-header {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+@media only screen and (max-width: 524px) {
+    .surya-fertility-center-stats {
+        height: 180px;
+        position: relative;
+        top: 20px;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .card1-count {
+        font-size: 20px;
+        padding: 5px;
+
+        position: relative;
+        bottom: 40px;
+
+    }
+
+}
+
+@media only screen and (max-width:576px) {
+    .card1-description {
+        font-size: 15px;
+        padding: 10px;
+
+        position: relative;
+        bottom: 60px;
+
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    .surya-fertility-center-image {
+
+        width: 100vw;
+
+    }
+
+}
+
+
+
+
+
+.surya-fertility-center-image {
+
+    height: 150px;
+    width: 250px;
+}
+
+
+
+.surya-fertility-center-address {
+    background-color: #04035a;
+    padding: 15px;
+
+}
+
+.address {
+    font-family: "Roboto";
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+
+
+}
+
+.appointment {
+    font-family: "Roboto";
+    background-color: #5050e2;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.home-1 {
+    background-image: url("https://i2.wp.com/sleepingshouldbeeasy.com/wp-content/uploads/2020/02/baby-only-wants-mom-2.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    text-align: left;
+    padding: 10px;
+
+}
+
+@media screen and (max-width:575px) {
+    .home-1 {
+        background-image: url("https://i.pinimg.com/736x/4c/73/75/4c7375b5d96c7701fa64d5e6e7bcbb21--motherhood-picture-ideas.jpg");
+    }
+}
+
+
+.heading {
+    font-family: "Lucida Bright";
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+    color: #17069c;
+}
+
+.sub-heading {
+
+    color: #06919c;
+}
+
+.description {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 25px;
+    color: #069c81;
+    margin: 25px
+}
+
+.book-appointment-button {
+    font-family: "Segoe UI";
+    background-color: #ef44c9;
+    padding: 15px;
+    border-width: 0;
+    color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px 3px #000000;
+
+
+}
+
+.home-2 {
+    background-color: #e8e8ee;
+
+
+
+}
+
+
+.surya-fertility-center-stats {
+    padding: 25px;
+    display: flex;
+    position: relative;
+
+    bottom: 80px;
+
+    justify-content: center;
+}
+
+.card1 {
+    background-color: #3353c0;
+    text-align: center;
+    padding: 10px;
+    height: 150px;
+    color: #ffffff;
+    font-family: "Roboto";
+    width: 150px;
+}
+
+.card1-count {
+    font-family: "Lucida Bright";
+    font-size: 25px;
+}
+
+.card1-description {
+    font-family: "Lucida Bright";
+    padding-bottom: 25px;
+}
+
+.card2 {
+    background-color: #eb1ad9;
+    text-align: center;
+    padding: 10px;
+    height: 150px;
+    color: #ffffff;
+    font-family: "Roboto";
+    width: 150px;
+}
+
+.card3 {
+    background-color: #3353c0;
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    font-family: "Roboto";
+    width: 150px;
+    height: 150px;
+}
+
+
+.doctor-image {
+    height: 600px;
+    width: 500px;
+}
+
+
+.baby-mother-image {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 200px;
+    left: 70px;
+    border-color: #000000;
+
+}
+
+.baby-mother-image1 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 450px;
+    right: 100px;
+    border-color: #000000;
+
+}
+
+.baby-image {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 40px;
+    left: 40px;
+
+    right: 150px;
+
+}
+
+.image-description-container {
+    display: flex;
+
+    padding: 15px;
+}
+
+.baby {
+    border-radius: 200px;
+    padding: 10px;
+    background-color: #F9063B;
+    position: relative;
+    bottom: 30px;
+}
+
+
+
+
+.home-2-heading {
+    font-family: "Century Gothic";
+    font-size: 30px;
+    font-weight: 800;
+    padding: 20px;
+    color: #353535;
+    text-align: left;
+}
+
+.surya-fertility-center {
+    color: #1A077B;
+}
+
+.home-2-description-1 {
+    font-family: "Garamond";
+    font-size: 25px;
+    color: #ED0FE3;
+}
+
+.home-2-description-2 {
+    font-family: "Garamond";
+    font-size: 25px;
+    color: #ED0FE3;
+}
+
+@media screen and (max-width:576px) {
+    .doctor-image {
+        height: 300px;
+        width: 280px;
+    }
+
+    .home-2-description-1 {
+        font-family: "Avenir Arabic Roman";
+        font-size: 15px;
+        color: #ED0FE3;
+        position: relative;
+        top: 20px;
+    }
+
+
+    .home-2-description-2 {
+        font-family: "Avenir Arabic Roman";
+        font-size: 15px;
+        color: #ED0FE3;
+        position: relative;
+        top: 20px;
+    }
+
+    .home-2-heading {
+        font-family: "Century Gothic";
+        font-size: 20px;
+        font-weight: 800;
+        padding: 20px;
+        color: #353535;
+        text-align: left;
+        position: relative;
+        top: 40px;
+    }
+
+    .know-more {
+        margin-top: 25px;
+        font-family: "Optima";
+    }
+
+    .baby-mother-image {
+        display: none;
+    }
+
+    .baby-mother-image1 {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .image-description-container {
+        display: flex;
+
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .home-2-description {
+        position: relative;
+        bottom: 40px;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .home-2-description-1 {
+
+        font-size: 25px;
+    }
+
+    .home-2-description-2 {
+
+        font-size: 25px;
+    }
+
+    .image-1-image {
+
+        height: 15vh;
+        width: 15vw;
+    }
+
+    .sub-div-heading {
+
+        font-size: 15px;
+    }
+
+    .sub-div-image {
+        height: 40px;
+        width: 40px;
+        position: relative;
+        bottom: 20px;
+        border-radius: 40px;
+    }
+}
+
+.know-more {
+    background: transparent;
+    border-color: #350578;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 25px;
+    font-family: "Optima";
+}
+
+.meet-our-doctor {
+    background-color: #CD0C9D;
+    border-radius: 50px;
+    border-width: 0;
+    font-size: 20px;
+    padding: 25px;
+    font-family: "Optima";
+    color: #ffffff;
+}
+
+
+.home-3 {
+    padding: 20px;
+
+    text-align: center;
+
+}
+
+.our-treatments {
+    font-family: "Gill Sans";
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.treatments {
+    color: blue;
+    font-family: "Gill Sans";
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.line {
+    background-color: #E904F7;
+    width: 70px;
+    height: 2px;
+    border-radius: 5px;
+}
+
+
+
+.images-container {
+    display: flex;
+    padding: 15px;
+
+}
+
+.image-container-1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.image-2 {
+    display: flex;
+    flex-direction: column;
+
+    padding: 15px;
+}
+
+.image-3 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.image-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.image-1-image {
+
+    height: 25vh;
+    width: 25vw;
+}
+
+.sub-div {
+    background-color: #E951DE;
+    width: 25vw;
+}
+
+.sub-div-image {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    bottom: 20px;
+    border-radius: 40px;
+}
+
+.image-container-2 {
+    background-image: url("https://www.remedygroup.in/images/services/banner_1641921332.jpg");
+    background-repeat: no-repeat;
+    padding: 10px;
+    width: 50vw;
+}
+
+.advanced-treatments {
+    font-family: "Candara";
+    color: #634280;
+}
+
+.advanced-treatments-details {
+    color: #ffffff;
+    font-family: "Segoe UI";
+}
+
+.sub-div-heading {
+    font-size: 25px;
+    color: #ffffff;
+    font-family: "Segoe UI";
+}
+
+.blastocyst-culture {
+    color: #D675DC;
+}
+
+.advance-treatment-button {
+    background-color: transparent;
+    color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 20px;
+    border-width: 2px;
+    padding: 5px;
+    font-family: "Segoe UI"
+
+}
+
+.view-all-treatments {
+    background-color: #041387;
+    padding: 15px;
+    border-width: 0;
+    border-radius: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    box-shadow: 50px 50px;
+}
+
+@media screen and (max-width: 576px) {
+
+
+    .sub-div {
+        height: 50px;
+
+    }
+
+    .advanced-treatments {
+        font-size: 15px;
+    }
+
+    .advanced-treatments-details {
+        font-size: 8px;
+    }
+
+    .sub-div-heading {
+        font-size: 10px;
+        position: relative;
+        bottom: 15px;
+    }
+
+    .images-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .image-container-1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .image-container-2 {
+        position: relative;
+        left: 30px;
+    }
+
+    .view-all-treatments {
+        font-size: 8px;
+    }
+
+    .know-more {
+        font-size: 8px;
+        margin-top: 10px;
+    }
+
+    .meet-our-doctor {
+        font-size: 8px;
+        margin-top: 10px;
+    }
+
+    .our-treatments {
+        font-size: 20px;
+    }
+
+    .treatments {
+        font-size: 20px;
+    }
+}
